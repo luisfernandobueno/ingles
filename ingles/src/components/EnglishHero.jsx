@@ -17,7 +17,7 @@ export default function EnglishHero() {
             <div className="absolute -left-3 -top-3 h-full w-full rounded-3xl bg-blue-100" />
 
             <img
-              src="/images/IMG_20250430_155138.jpg"
+              src={`${import.meta.env.BASE_URL}images/IMG_20250430_155138.jpg`}
               alt="Fernando Bueno"
               className="relative h-full min-h-[320px] w-full rounded-3xl object-cover shadow-xl md:min-h-[500px]"
             />
